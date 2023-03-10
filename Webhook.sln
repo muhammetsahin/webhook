@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webhooks", "src\Webhooks\Webhooks.csproj", "{4D75212F-C134-4E52-94A2-C96CA8ABC2B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webhooks.Sample", "src\Webhooks.Sample\Webhooks.Sample.csproj", "{B73DFF24-34A6-4A76-A867-CE9260882278}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D75212F-C134-4E52-94A2-C96CA8ABC2B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D75212F-C134-4E52-94A2-C96CA8ABC2B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D75212F-C134-4E52-94A2-C96CA8ABC2B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D75212F-C134-4E52-94A2-C96CA8ABC2B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B73DFF24-34A6-4A76-A867-CE9260882278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B73DFF24-34A6-4A76-A867-CE9260882278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B73DFF24-34A6-4A76-A867-CE9260882278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B73DFF24-34A6-4A76-A867-CE9260882278}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
