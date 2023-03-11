@@ -68,13 +68,6 @@ namespace Webhooks.Sample
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
-            
-            using (var serviceScope = app.ApplicationServices.GetService<IServiceScopeFactory>().CreateScope())
-            {
-                var context = serviceScope.ServiceProvider.GetRequiredService<WebhookContext>();
-                context.Database.EnsureCreated();
-                context.Database.Migrate();
-            }
         }
     }
 }
