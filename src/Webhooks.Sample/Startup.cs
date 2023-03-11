@@ -61,7 +61,7 @@ namespace Webhooks.Sample
                     c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Webhooks.Sample v1"));
             }
 
-            app.UseHttpsRedirection();
+          //  app.UseHttpsRedirection();
 
             app.UseRouting();
 
