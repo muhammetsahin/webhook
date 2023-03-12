@@ -31,4 +31,10 @@
     </Content>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="loaderio-bcd009904d3e863fbbe05951da590dca.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
